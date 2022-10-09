@@ -1,0 +1,250 @@
+@font-face {
+  font-family: BYekan;
+  src: url(../font/BYekan+.ttf);
+  src: url(../font/BYekan+\ Bold.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  direction: rtl;
+  font-family: BYekan;
+  background-color: #e9f3ed;
+}
+h1 {
+  text-align: center;
+}
+.bg-dark {
+  background-color: #498553 !important;
+}
+.text-purple {
+  color: #498553;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 100px;
+  margin: auto;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #f2f2f2;
+  padding: 30px;
+}
+.prd-style {
+  box-shadow: 0 15px 15px rgb(217, 220, 229);
+  transition: all 1s;
+}
+.prd-style:hover {
+  transform: scale(1.1);
+}
+.user-icon {
+  border-radius: 60px;
+}
+.bg-gradt {
+  background-image: linear-gradient(to right, #498553, #d7eadd);
+}
+.btn-purple {
+  background-color: #498553;
+}
+.btn-purple:hover {
+  background-color: #67be75;
+}
+.middle-card {
+  background-image: url("../img/img9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #cccccc;
+  height: 400px;
+  margin-top: 50px;
+}
+.title-offer {
+  border-bottom: 2px solid #d7eadd;
+  display: flex;
+
+  margin-right: 30px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+#products-all {
+  display: grid;
+  justify-items: center;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.footer {
+  background-color: #498553;
+  height: auto;
+  margin-top: 10px;
+}
+.icon-place {
+  position: fixed;
+  z-index: 999;
+}
+@media screen and (max-width: 700px) {
+  .animate-charcter {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+li {
+  list-style-type: none;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.ul-size {
+  font-size: 25px;
+}
+.display {
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  background: #ccc;
+  border-radius: 30px;
+}
+.card_style {
+  border: none;
+  border-radius: 30px;
+  background: #d7eadd;
+  box-shadow: 5px 3px 18px 2px rgb(42 70 60);
+}
+/* calculator style */
+.buttons {
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 60px;
+  box-shadow: 5px 4px 9px rgb(52, 179, 132);
+  margin: 5px 10px;
+}
+.column_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+#clear_all {
+  background: #b32727;
+}
+#clear {
+  background: #cabf2d;
+}
+#equal {
+  background-color: #498553;
+}
+/* dice game style */
+#side-left {
+  height: 800px;
+  background-color: #4325af;
+}
+#side-right {
+  height: 800px;
+  background-color: #4325af;
+}
+#section-center {
+  height: 800px;
+  background-color: #28156b;
+}
+.title-player {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+.score-player {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+#count-score2 {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+#count-score1 {
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-family: "VT323", monospace;
+}
+.img1 {
+  width: 100px;
+  height: 100px;
+}
+.img2 {
+  width: 100px;
+  height: 100px;
+}
+#start-game {
+  size: 40px;
+}
+#result {
+  color: #cabf2d;
+  font-size: 50px;
+}
+@media screen and (max-width: 512px) {
+  #count-score2 {
+    font-size: xx-large !important;
+  }
+  #count-score1 {
+    font-size: xx-large !important;
+  }
+  .score-player {
+    font-size: xx-large !important;
+  }
+  #side-right {
+    height: 200px;
+  }
+  #side-left {
+    height: 200px;
+  }
+  #section-center {
+    height: 350px;
+  }
+}

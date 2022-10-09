@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>dice game</title>
+  </head>
+  <body style="direction: ltr">
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-around">
+        <div class="row col-md-3 col-sm-12" id="side-right">
+          <div class="row">
+            <h4 class="title-player" id="player1">player:1</h4>
+          </div>
+          <div class="row">
+            <h1 class="score-player">score</h1>
+            <h3 id="count-score1">0</h3>
+          </div>
+        </div>
+        <div class="row col-md-6 col-sm-12" id="section-center">
+          <div class="row text-center">
+            <h2 class="score-player">Dice Game</h2>
+            <h5 id="result"></h5>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <img class="img1" id="img1" src="img/6.jpg" />
+            <img class="img2" id="img2" src="img/6.jpg" />
+          </div>
+          <div class="row d-flex justify-content-center">
+            <button
+              type="button"
+              class="btn btn-warning btn-lg"
+              style="direction: ltr; width: 150px; height: fit-content"
+              id="start-game"
+            >
+              Go to play!
+            </button>
+            <span
+              type="button"
+              class="btn btn-warning btn-lg"
+              style="direction: ltr; width: 50px; height: fit-content"
+              id="restart-game"
+            >
+              <i class="bi bi-arrow-repeat"></i>
+            </span>
+          </div>
+        </div>
+        <div class="row col-md-3 col-sm-12" id="side-left">
+          <div class="row">
+            <h4 class="title-player" id="player2">player:2</h4>
+          </div>
+          <div class="row">
+            <h1 class="score-player">score</h1>
+            <h3 id="count-score2">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

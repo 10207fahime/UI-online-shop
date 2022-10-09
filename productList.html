@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./test.js"></script>
+  </head>
+  <body>
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a href="home.html">صفحه نخست</a></li>
+            <li class="nav-item"><a href="product.html">محصولات</a></li>
+            <li class="nav-item">
+              <a href="productList.html">سبدخرید</a>
+            </li>
+            <li class="nav-item"><a href="register.html">عضویت</a></li>
+            <!-- <li class="nav-item"><a href="about.html">درباره ما</a></li> -->
+          </ul>
+        </div>
+        <img
+          src="img/usericon.jpg"
+          class="rounded-circle shadow-4"
+          style="width: 30px"
+          alt="Avatar"
+        />
+      </div>
+    </nav>
+    <!--end navbar-->
+    <!--start section-->
+    <div class="row col-md-6 col-sm-8 justify-content-around mt-5 m-auto">
+      <div class="card">
+        <h5 class="card-header">سبد خرید</h5>
+        <div class="card-body">
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">محصول</th>
+                <th scope="col">نام محصول</th>
+                <th scope="col">قیمت</th>
+                <th scope="col">تعداد</th>
+                <th scope="col">وضعیت سفارش</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>
+                  <img
+                    src="img/img4.jpg"
+                    class="rounded-circle shadow-4"
+                    style="width: 30px"
+                  />
+                </td>
+                <td>اقاقیا</td>
+                <td>150000</td>
+                <td>1عدد</td>
+                <td>
+                  <button class="btn btn-sm btn-purple text-white">
+                    تکمیل خرید
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>
+                  <img
+                    src="img/img5.jpg"
+                    class="rounded-circle shadow-4"
+                    style="width: 30px"
+                  />
+                </td>
+                <td>آگلونما</td>
+                <td>150000</td>
+                <td>1عدد</td>
+                <td>
+                  <button class="btn btn-sm btn-purple text-white">
+                    تکمیل خرید
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>
+                  <img
+                    src="img/img3.jpg"
+                    class="rounded-circle shadow-4"
+                    style="width: 30px"
+                  />
+                </td>
+                <td>پتوس</td>
+                <td>150000</td>
+                <td>1عدد</td>
+                <td>
+                  <button class="btn btn-sm btn-purple text-white">
+                    تکمیل خرید
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="home.html" class="btn btn-purple text-white"
+            >بازگشت به فروشگاه</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--end section-->
+    <!--start footer-->
+    <div class="row">
+      <div class="footer d-flex w-100 p-4">
+        <div class="flex-col col-12">
+          <div class="d-flex flex-row-reverse jus-between flex-wrap">
+            <div class="col-md-4 col-sm-12">
+              <div class="d-flex justify-content-center mt-4">
+                <img src="img/map.jpg" width="300px" height="300px" />
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-white">
+              <div class="d-flex justify-content-right mt-5">
+                <ul class="flex-col al-start jus-center ul-size">
+                  <strong>اطلاعات تماس</strong>
+                  <li class="menu-list">ایمیل:harajestan-gol@gmail.com</li>
+                  <li class="menu-list">شماره تماس:02145789887</li>
+                  <li class="menu-list">آدرس:ضلع شمالی میدان آزادی</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-white ml-5">
+              <div class="d-flex justify-content-right mt-5">
+                <ul class="flex-col al-start jus-center ul-size">
+                  <strong>دسترسی سریع</strong>
+                  <li class="menu-list"><a href="home.html">صفحه اصلی</a></li>
+                  <li class="menu-list"><a href="register.html">عضویت</a></li>
+                  <li class="menu-list">
+                    <a href="productList.html">سبد خرید</a>
+                  </li>
+                  <li class="menu-list"><a href="product.html">محصولات</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end footer-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
